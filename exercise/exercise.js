@@ -30,6 +30,7 @@ function addToList() {
         const li = document.createElement('li');
         li.textContent = input.value;
         ul.appendChild(li);
+        innerHTML = `<li>${input.value}</li>`;
         input.value = '';
     }
 }
